@@ -3,6 +3,7 @@
   "version": "1.1.0",
   "private": true,
   "scripts": {
+    "cypress:open": "cypress open",
     "test": "jest",
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
@@ -29,6 +30,7 @@
     "@vue/cli-plugin-eslint": "^4.4.6",
     "@vue/cli-service": "^4.4.6",
     "babel-plugin-component": "^1.1.1",
+    "cypress": "^7.5.0",
     "node-sass": "^4.14.1",
     "sass-loader": "^8.0.2",
     "vue-template-compiler": "^2.6.11"
